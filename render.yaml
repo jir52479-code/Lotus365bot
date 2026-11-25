@@ -1,5 +1,0 @@
-services:
-  - type: web
-    name: lotus-php-bot
-    runtime: docker
-    plan: free
