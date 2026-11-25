@@ -1605,3 +1605,7 @@ function handleFbFileInput($uid, $chat_id, $fileId) {
     }
     startAutoScanWithUrls($uid, $chat_id, $valid_urls);
 }
+php -l bot.php
+php -d display_errors=1 -d error_reporting=E_ALL bot.php
+
+    
